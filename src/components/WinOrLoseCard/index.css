@@ -45,8 +45,8 @@
     width: 70vw;
     height: 75vh;
   }
-  .gameDetail{
-    order:1;
+  .gameDetail {
+    order: 1;
   }
   .head {
     font-size: 24px;
@@ -63,7 +63,7 @@
     width: 30vw;
   }
   .resicon {
-    order:0;
+    order: 0;
     height: 25vh;
     width: 35vw;
   }
@@ -78,8 +78,8 @@
     width: 79vw;
     height: 75vh;
   }
-  .gameDetail{
-    order:1;
+  .gameDetail {
+    order: 1;
   }
   .head {
     font-size: 30px;
@@ -96,7 +96,7 @@
     width: 30vw;
   }
   .resicon {
-    order:0;
+    order: 0;
     height: 25vh;
     width: 35vw;
   }
@@ -153,5 +153,33 @@
   .resicon {
     height: 35vh;
     width: 45vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card {
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 280px;
+    min-width: 50vw;
+    min-height: 50vh;
+    max-height:60vh;
+  }
+  .head {
+    font-size: 40px;
+  }
+  .p2 {
+    font-size: 35px;
+  }
+  .p3 {
+    font-size: 35px;
+  }
+  .butt {
+    font-size: 30px;
+    height: 10vh;
+    width: 20vw;
+  }
+  .resicon {
+    height: 50vh;
+    width: 25vw;
   }
 }

@@ -66,7 +66,7 @@ class EmojiGame extends Component {
     return (
       <div className="back">
         <NavBar end={end} score={score} topScore={topScore} />
-        {end ? (
+        {!end ? (
           <ul className="emojis">
             {filEmo.map(eachEmoji => (
               <EmojiCard

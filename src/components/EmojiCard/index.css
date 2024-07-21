@@ -32,7 +32,7 @@
     width: 15vw;
   }
 }
-@media screen and (max-width: 767px) and (min-width:576px) {
+@media screen and (max-width: 767px) and (min-width: 576px) {
   .lists {
     width: 21vw;
     max-height: 20vh;
@@ -43,7 +43,7 @@
     width: 15vw;
   }
 }
-@media screen and (max-width: 991px) and (min-width:768px) {
+@media screen and (max-width: 991px) and (min-width: 768px) {
   .lists {
     width: 21vw;
     max-height: 20vh;
@@ -54,7 +54,7 @@
     width: 15vw;
   }
 }
-@media screen and (max-width: 1199px) and (min-width:992px) {
+@media screen and (max-width: 1199px) and (min-width: 992px) {
   .lists {
     width: 21vw;
     max-height: 20vh;

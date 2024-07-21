@@ -33,7 +33,7 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 767px) and (min-width:576px ) {
+@media screen and (max-width: 767px) and (min-width: 576px) {
   .tot {
     margin-left: 17px;
   }
@@ -44,7 +44,7 @@
     font-size: 26px;
   }
 }
-@media screen and (max-width: 991px) and (min-width:768px ) {
+@media screen and (max-width: 991px) and (min-width: 768px) {
   .tot {
     margin-left: 20px;
   }
@@ -55,4 +55,3 @@
     font-size: 30px;
   }
 }
-
