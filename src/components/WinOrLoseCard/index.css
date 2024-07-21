@@ -1,0 +1,157 @@
+/* Write your code here. */
+.card {
+  background-color: #ffffff33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 290px;
+  width: 60vw;
+  height: 60vh;
+}
+.head {
+  color: #ffffff;
+  font-size: 50px;
+}
+.p2 {
+  color: #ffffff;
+  font-size: 25px;
+}
+.p3 {
+  color: #6a59ff;
+  font-size: 50px;
+  font-weight: bold;
+}
+.butt {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-weight: Bold;
+  font-size: 28px;
+  height: 7vh;
+  border: none;
+  border-radius: 25px;
+  width: 17vw;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 575px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 70vw;
+    height: 75vh;
+  }
+  .gameDetail{
+    order:1;
+  }
+  .head {
+    font-size: 24px;
+  }
+  .p2 {
+    font-size: 20px;
+  }
+  .p3 {
+    font-size: 20px;
+  }
+  .butt {
+    font-size: 13px;
+    height: 10vh;
+    width: 30vw;
+  }
+  .resicon {
+    order:0;
+    height: 25vh;
+    width: 35vw;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 79vw;
+    height: 75vh;
+  }
+  .gameDetail{
+    order:1;
+  }
+  .head {
+    font-size: 30px;
+  }
+  .p2 {
+    font-size: 25px;
+  }
+  .p3 {
+    font-size: 25px;
+  }
+  .butt {
+    font-size: 16px;
+    height: 10vh;
+    width: 30vw;
+  }
+  .resicon {
+    order:0;
+    height: 25vh;
+    width: 35vw;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 767px) {
+  .card {
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 79vw;
+    height: 50vh;
+  }
+  .head {
+    font-size: 35px;
+  }
+  .p2 {
+    font-size: 30px;
+  }
+  .p3 {
+    font-size: 30px;
+  }
+  .butt {
+    font-size: 20px;
+    height: 10vh;
+    width: 25vw;
+  }
+  .resicon {
+    height: 30vh;
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .card {
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 86vw;
+    height: 50vh;
+  }
+  .head {
+    font-size: 40px;
+  }
+  .p2 {
+    font-size: 35px;
+  }
+  .p3 {
+    font-size: 35px;
+  }
+  .butt {
+    font-size: 30px;
+    height: 10vh;
+    width: 25vw;
+  }
+  .resicon {
+    height: 35vh;
+    width: 45vw;
+  }
+}

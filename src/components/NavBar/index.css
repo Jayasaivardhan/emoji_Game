@@ -1,0 +1,58 @@
+/* Write your code here. */
+.col {
+  color: #ffffff;
+}
+.tot {
+  margin-left: 30px;
+}
+.logo {
+  max-height: 7vh;
+  min-height: 6vh;
+  width: 9vw;
+}
+.pa1 {
+  font-size: 30px;
+}
+.nav-bar {
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: space-around;
+}
+.scores {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 575px) {
+  .tot {
+    margin-left: 10px;
+  }
+  .pa1 {
+    font-size: 13px;
+  }
+  .head1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width:576px ) {
+  .tot {
+    margin-left: 17px;
+  }
+  .pa1 {
+    font-size: 17px;
+  }
+  .head1 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width:768px ) {
+  .tot {
+    margin-left: 20px;
+  }
+  .pa1 {
+    font-size: 20px;
+  }
+  .head1 {
+    font-size: 30px;
+  }
+}
+

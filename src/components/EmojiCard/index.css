@@ -1,0 +1,67 @@
+/* Write your code here. */
+.lists {
+  list-style-type: none;
+  background-color: #ffffff33;
+  border-radius: 15px;
+  display: flex;
+  outline: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vh;
+  margin: 20px;
+}
+.emo {
+  height: 10vh;
+  width: 8vw;
+}
+.emobut {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 575px) {
+  .lists {
+    width: 21vw;
+    max-height: 20vh;
+    margin: 10px;
+  }
+  .emo {
+    height: 10vh;
+    width: 15vw;
+  }
+}
+@media screen and (max-width: 767px) and (min-width:576px) {
+  .lists {
+    width: 21vw;
+    max-height: 20vh;
+    margin: 10px;
+  }
+  .emo {
+    height: 10vh;
+    width: 15vw;
+  }
+}
+@media screen and (max-width: 991px) and (min-width:768px) {
+  .lists {
+    width: 21vw;
+    max-height: 20vh;
+    margin: 28px;
+  }
+  .emo {
+    height: 10vh;
+    width: 15vw;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width:992px) {
+  .lists {
+    width: 21vw;
+    max-height: 20vh;
+    margin: 10px;
+  }
+  .emo {
+    height: 10vh;
+    width: 15vw;
+  }
+}
